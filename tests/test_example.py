@@ -21,5 +21,6 @@ else:
     print("Expected:", expected_title)
     print("Actual:", actual_title)
 
+driver.save_screenshot("google1.png")
 # Close browser
 driver.quit()
